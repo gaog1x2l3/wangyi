@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/fragment_replse"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tab"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#F6F6F6"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F6F6F6"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/ad_news"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/news_select"
+                android:gravity="center"
+                android:text="新闻"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/ad_read"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/read_select"
+                android:gravity="center"
+                android:text="阅读"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/ad_vido"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/vido_select"
+                android:gravity="center"
+                android:text="视听"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/ad_discover"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/discover_select"
+                android:gravity="center"
+                android:text="发现"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/ad_my"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/my_select"
+                android:gravity="center"
+                android:text="我"
+                android:textSize="12sp" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_above="@+id/tab"
+        android:layout_alignParentLeft="true"
+        android:background="#F6F6F6" />
+
+</RelativeLayout>

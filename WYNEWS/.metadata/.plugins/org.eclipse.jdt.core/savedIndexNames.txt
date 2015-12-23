@@ -1,0 +1,2 @@
+INDEX VERSION 1.126+D:\WYNEWS\WYNEWS\.metadata\.plugins\org.eclipse.jdt.core
+1469276848.index
